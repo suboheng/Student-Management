@@ -1,0 +1,128 @@
+/* public/css/student-directory.css */
+body {
+    background-color: #edf2f9;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #334155;
+}
+
+.system-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    border: none;
+}
+
+.card-header-gradient {
+    background: linear-gradient(135deg, #3a52ee 0%, #4f22cd 100%);
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.card-header-gradient h3 {
+    font-weight: 700;
+    margin-bottom: 6px;
+    font-size: 24px;
+}
+
+.card-header-gradient p {
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+.stat-box {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stat-box .stat-number {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.stat-box .stat-label {
+    font-size: 11px;
+    font-weight: 500;
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.custom-input, .custom-select {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #334155;
+    transition: all 0.2s ease-in-out;
+}
+
+.custom-input:focus, .custom-select:focus {
+    background-color: #ffffff;
+    border-color: #4361ee;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+}
+
+.table-custom {
+    vertical-align: middle;
+}
+
+.table-custom th {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #1e293b;
+    font-weight: 700;
+    border-bottom: 2px solid #e2e8f0;
+    padding: 14px 10px;
+}
+
+.table-custom td {
+    padding: 14px 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.dept-badge {
+    background-color: #e0e7ff;
+    color: #4361ee;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.action-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border: none;
+    margin: 0 2px;
+}
+.action-view { background-color: #e0f2fe; color: #0284c7; }
+.action-edit { background-color: #dcfce7; color: #16a34a; }
+.action-delete { background-color: #fee2e2; color: #dc2626; }
+
+.btn-submit {
+    background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: block;
+}
+.btn-submit:hover { color: white; opacity: 0.95; }

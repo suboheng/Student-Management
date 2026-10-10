@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-image: url("./image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+}
+
+.login-card {
+    width: 540px;                   
+    max-width: 90%;
+    min-height: 720px;              
+    padding: 70px 55px 60px 55px; 
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-card h2 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 45px !important;
+    letter-spacing: 0.5px;
+}
+
+.mb-4 {
+    margin-bottom: 35px !important;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.custom-input {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.8) !important;
+    border-radius: 0 !important;
+    color: white !important;
+    padding: 10px 0 !important;
+    font-size: 17px;
+    box-shadow: none !important;
+}
+
+.custom-input:focus {
+    border-bottom-color: #ffffff !important;
+}
+
+.custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-size: 15px;
+}
+
+.custom-input:-webkit-autofill,
+.custom-input:-webkit-autofill:hover, 
+.custom-input:-webkit-autofill:focus {
+    -webkit-text-fill-color: white !important;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.login-btn {
+    width: 85%;
+    height: 54px;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #ffffff;
+    color: #222222;
+    transition: all 0.2s ease;
+}
+
+.login-btn:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.register-text {
+    font-size: 14px;
+    margin-top: 40px !important;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.register-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}

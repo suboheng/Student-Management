@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background-image: url("./image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.login-card {
+    width: 440px;
+    max-width: 90%;
+    padding: 50px 45px 40px 45px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 28px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-card h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 35px !important;
+    letter-spacing: 0.5px;
+}
+
+.input-group-custom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px !important;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-input {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.7) !important;
+    border-radius: 0 !important;
+    color: #ffffff !important;
+    padding: 6px 0 !important;
+    font-size: 15px;
+    box-shadow: none !important;
+}
+
+.custom-input:focus {
+    border-bottom-color: #ffffff !important;
+}
+
+.custom-input:-webkit-autofill,
+.custom-input:-webkit-autofill:hover,
+.custom-input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #ffffff !important;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+
+.password-toggle-icon:hover {
+    color: #ffffff;
+}
+
+.text-options {
+    font-size: 13px;
+}
+
+.form-check-label,
+.link-light {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.form-check-input {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.link-light {
+    text-decoration: none;
+}
+
+.link-light:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    height: 48px;
+    border-radius: 50px;
+
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(181, 199, 241, 0.85);
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+    backdrop-filter: blur(4px);
+}
+
+.login-btn:hover {
+    background: rgba(122, 171, 220, 0.95);
+    color: #f7f7f8;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.register-text {
+    font-size: 13px;
+    color: rgba(247, 247, 247, 0.85);
+}
+
+.register-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
